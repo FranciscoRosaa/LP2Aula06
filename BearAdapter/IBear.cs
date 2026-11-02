@@ -2,7 +2,7 @@
 {
     public interface IBear
     {
-        bool Hibernating { get; set; }
+        bool Hibernating { get; }
 
         void Roar();
         void LookAt(object objectToLookAt);
